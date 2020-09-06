@@ -30,18 +30,15 @@
     color: #d21034;
   }
 
-  /* Selecting elements by ID */
+  /* Selecting elements by class */
   .container {
-    width: 1024px;
+    width: auto;
     margin: 0 auto;
   }
 
-  #contact-info {
-    width: 35%;
-  }
-
+  /* Selecting elements by ID */
   #summary-section {
-    width: 65%;
+    width: 60%;
   }  
 
   #summary-image {
@@ -50,18 +47,12 @@
     margin: 20px;
   }
   
-  #summary-section, 
-  #summary-image, 
-  #contact-info,
-  #figl {
+  #summary-image,
+  #summary-section {
     float: left;
   }
 
-  #figr {
-    float: right;
-  }
-
-  #figl, #figr {
+  #visualizations-image {
     width: 150px;
     height: 150px;
     margin: 10px;
