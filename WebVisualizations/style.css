@@ -37,23 +37,33 @@
   }
 
   #contact-info {
-    width: 30%;
+    width: 35%;
   }
 
   #summary-section {
-    width: 70%;
+    width: 65%;
   }  
 
   #summary-image {
     width: 200px;
     height: 200px;
-    margin-right: 20px;
+    margin: 20px;
   }
   
   #summary-section, 
-  #summary-image {
+  #summary-image, 
+  #contact-info,
+  #figl {
     float: left;
   }
 
-  
+  #figr {
+    float: right;
+  }
+
+  #figl, #figr {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+  }
   
