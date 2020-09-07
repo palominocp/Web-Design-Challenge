@@ -1,5 +1,8 @@
   /* Styling for HTML elements */
-
+  p {
+    margin-top: 30px;
+    margin-right: 40px;
+  }
   /* Selecting elements by class */
   .container {
     width: auto;
