@@ -26,9 +26,15 @@
     float: left;
   }
 
-  #visualizations-image {
+  #visualizations-menu {
     width: 150px;
     height: 150px;
+    margin: 10px;
+  }
+  
+  #visualizations-page {
+    width: 600px;
+    height: 400px;
     margin: 10px;
   }
   
